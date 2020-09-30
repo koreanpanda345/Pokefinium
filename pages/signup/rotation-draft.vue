@@ -6,6 +6,7 @@
         height="1300"
         frameborder="0"
         marginheight="0"
-        marginwidth="0">Loading…</iframe>
+        marginwidth="0"
+        class="align-middle">Loading…</iframe>
     </div>
 </template>

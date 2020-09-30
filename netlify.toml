@@ -5,5 +5,5 @@ status = 404
 
 [[redirects]]
 from = "/drafts/leagues/season7/*"
-to="error"
+to="/error"
 status = 404
