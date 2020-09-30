@@ -1,0 +1,9 @@
+[[redirects]]
+from = "/fakemons/*"
+to = "/error"
+status = 404
+
+[[redirects]]
+from = "/drafts/leagues/season7/*"
+to="error"
+status = 404
