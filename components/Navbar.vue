@@ -48,7 +48,7 @@
   Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
   Read the documentation to get started: https://tailwindui.com/documentation
 -->
-<div class="relative inline-block text-left">
+<div class="relative inline-block text-right">
   <div>
     <span class="rounded-md shadow-sm">
       <button
@@ -58,7 +58,7 @@
       id="options-menu"
       aria-haspopup="true"
       aria-expanded="true">
-        Draft Leagues
+        Drafts Leagues
         <!-- Heroicon name: chevron-down -->
         <svg class="-mr-1 ml-2 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -77,7 +77,7 @@
       From: "transform opacity-100 scale-100"
       To: "transform opacity-0 scale-95"
   -->
-  <div class="origin-top-left absolute right-0 mt-2 w-56 rounded-md shadow-lg" :class="dropdown ? 'block' : 'hidden'">
+  <div class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg" :class="dropdown ? 'block' : 'hidden'">
     <div class="rounded-md bg-white shadow-xs">
       <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
         <a href="/drafts/bo3" class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" role="menuitem">Bo3</a>
