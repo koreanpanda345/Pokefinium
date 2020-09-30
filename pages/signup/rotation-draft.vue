@@ -2,7 +2,7 @@
     <div class="container mx-auto">
       <iframe
         src="https://forms.gle/AgwnBBQGdsp1636AA?embedded=true"
-        width="500"
+        width="450"
         height="1300"
         frameborder="0"
         marginheight="0"
