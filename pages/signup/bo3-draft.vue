@@ -2,7 +2,7 @@
     <div class="container mx-auto">
         <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSc_czpeB1HxccD9xq1cIoBEd8RwleYco2VY_4ejZuU562iaTg/viewform?embedded=true"
-            width="450"
+            width="400"
             height="1300"
             frameborder="0"
             marginheight="0"
