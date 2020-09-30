@@ -82,7 +82,7 @@
       <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
         <a href="/drafts/bo3" class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" role="menuitem">Bo3</a>
         <a href="/drafts/bo1" class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" role="menuitem">Bo1</a>
-        <a href="/drafts/rotation" class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" role="menuitem">Rotation</a>
+        <a href="/drafts/rotations" class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900" role="menuitem">Rotation</a>
       </div>
     </div>
   </div>

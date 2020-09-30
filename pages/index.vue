@@ -1,17 +1,17 @@
 <template>
-  <div class="container mx-auto text-center object-center">
+  <div class="container mx-auto object-center">
     <div class="col-1">
     <div>
-      <img src="/IGL.png" class="h=11 w-11"/>
-    </div>
-    <br><br>
+      <!-- <img src="/IGL.png" class="h-11 w-11 justify-self-center"/> -->
+        <!-- <br><br><br> -->
     <div class="svg-wrapper">
   <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
     <rect class="shape" height="60" width="320" />
   </svg>
    <div class="text">IGL Pokefinium</div>
 </div>
-</div>
+  </div>
+
 <div class="col-1">
   <h1 class="text-white right-5">Draft Leagues</h1>
   <div class="button-group text-white">
@@ -29,6 +29,8 @@
     <a class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/fakemons/ptr">PTR</a>
   </div>
 </div>
+</div>
+
   </div>
 </template>
 
