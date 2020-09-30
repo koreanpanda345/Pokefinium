@@ -1,7 +1,7 @@
 <template>
     <div class="container mx-auto">
         <iframe
-            src="https://forms.gle/8Bqkx1cCs6Y8nRPx9?embedded=true"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSc3RK9fLFtbUAkeQ9pR9e-hFu4G8aFzEHHZRbLpw4Yuq13lVw/viewform?embedded=true"
             width="400"
             height="1300"
             frameborder="0"
