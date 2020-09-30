@@ -17,9 +17,9 @@
     </div>
   </header>
   <div class="flex flex-center place-content-center">
-      <a class="no-underline inline-block text-sm px-20 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/signup/bo3-draft">Bo3 Draft Leagues</a>
-      <a class="no-underline inline-block text-sm px-20 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/signup/bo1-draft">Bo1 Draft Leagues</a>
-      <a class="no-underline inline-block text-sm px-20 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/signup/rotation-draft">Rotations Draft Leagues</a>
+      <a class="no-underline text-center inline-block text-sm  py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/signup/bo3-draft">Bo3 Draft Leagues</a>
+      <a class="no-underline text-center inline-block text-sm  py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/signup/bo1-draft">Bo1 Draft Leagues</a>
+      <a class="no-underline text-center inline-block text-sm  py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/signup/rotation-draft">Rotations Draft Leagues</a>
   </div>
 </div>
 </template>

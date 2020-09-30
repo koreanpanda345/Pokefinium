@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto text-center object-center">
     <div class="col-1">
     <div>
       <img src="/IGL.png" class="h=11 w-11"/>
@@ -13,7 +13,7 @@
 </div>
 </div>
 <div class="col-1">
-  <h1 class="text-white">Draft Leagues</h1>
+  <h1 class="text-white right-5">Draft Leagues</h1>
   <div class="button-group text-white">
     <a class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/signups">Signups for Season 7</a>
     <a class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/drafts/bo3">Bo3 Draft Leagues</a>
@@ -21,7 +21,7 @@
     <a class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/drafts/rotations">Rotations Draft Leagues</a>
   </div>
   <br>
-  <h1 class="text-white">Fakemons</h1>
+  <h1 class="text-white right-5">Fakemons</h1>
   <div class="button-group text-white">
     <a class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/about-fakemons">About Our Fakemons</a>
     <a class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/fakemons/fakemons">Fakemons</a>
