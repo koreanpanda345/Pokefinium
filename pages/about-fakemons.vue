@@ -40,5 +40,9 @@
             We are big on this, and we don't like using something that we don't have permission for, legally, and as our beliefs
         </p>
         <br>
+    <a class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/fakemons/fakemons">Fakemons</a>
+    <a class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/fakemons/submit">Submit Fakemon</a>
+    <a class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/fakemons/ptr">PTR</a>
+    <br>
     </div>
 </template>

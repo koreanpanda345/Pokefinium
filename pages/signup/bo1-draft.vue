@@ -8,5 +8,7 @@
             marginheight="0"
             marginwidth="0"
             class="align-middle">Loading…</iframe>
+        <a class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/">Go back to Home</a>
+        <br>
     </div>
 </template>
