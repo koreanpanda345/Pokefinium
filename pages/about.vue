@@ -29,7 +29,7 @@
               </th>
             </tr>
           </thead>
-          <tbody class="bg-white divide-y divide-gray-200">
+          <tbody class="divide-y divide-gray-500 bg-gray-400">
             <tr>
               <td class="px-6 py-4 whitespace-no-wrap">
                 <div class="flex items-center">
