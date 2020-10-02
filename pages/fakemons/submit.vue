@@ -1,12 +1,13 @@
 <template>
     <div>
         <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSfBAMW2ae7TrTqY9q7dYpDx9ADTF1omZJVT2ytLKEJvKcTjvg/viewform?embedded=true"
-        width="400"
-        height="1095"
+        class="airtable-embed"
+        src="https://airtable.com/embed/shr6k65vxikElfXaA?backgroundColor=cyan"
         frameborder="0"
-        marginheight="0"
-        marginwidth="0">Loading…</iframe>
+        onmousewheel=""
+        width="100%"
+        height="533"
+        style="background: transparent; border: 1px solid #ccc;"></iframe>
     </div>
 </template>
 <script>
