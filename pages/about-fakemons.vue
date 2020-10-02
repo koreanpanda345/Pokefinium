@@ -40,9 +40,136 @@
             We are big on this, and we don't like using something that we don't have permission for, legally, and as our beliefs
         </p>
         <br>
+<div class="flex flex-col">
+  <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+    <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+      <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+        <table class="min-w-full divide-y divide-gray-600">
+          <thead>
+            <tr>
+              <th class="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                Discord Username
+              </th>
+              <th class="px-6 py-3 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                Role
+              </th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-gray-200 bg-gray-400">
+            <tr>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="flex items-center">
+                  <div class="flex-shrink-0 h-10 w-10">
+                    <img class="h-10 w-10 rounded-full" src="/igl.png" alt="wolfsensi">
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-sm leading-5 font-medium text-gray-900">
+                      xSilas#9434
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
+                Artist & Head
+              </td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="flex items-center">
+                  <div class="flex-shrink-0 h-10 w-10">
+                    <img class="h-10 w-10 rounded-full" src="/igl.png" alt="wolfsensi">
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-sm leading-5 font-medium text-gray-900">
+                      DragonsOfSmite#6225
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
+                Artist
+              </td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="flex items-center">
+                  <div class="flex-shrink-0 h-10 w-10">
+                    <img class="h-10 w-10 rounded-full" src="/igl.png" alt="wolfsensi">
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-sm leading-5 font-medium text-gray-900">
+                      Lala199vy#5401
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
+                Artist
+              </td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="flex items-center">
+                  <div class="flex-shrink-0 h-10 w-10">
+                    <img class="h-10 w-10 rounded-full" src="/igl.png" alt="wolfsensi">
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-sm leading-5 font-medium text-gray-900">
+                      koreanpanda345#2878
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
+                Pokemon Showdown Server Manager
+              </td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="flex items-center">
+                  <div class="flex-shrink-0 h-10 w-10">
+                    <img class="h-10 w-10 rounded-full" src="/igl.png" alt="wolfsensi">
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-sm leading-5 font-medium text-gray-900">
+                      harbar20#9389
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
+                Programmer
+              </td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="flex items-center">
+                  <div class="flex-shrink-0 h-10 w-10">
+                    <img class="h-10 w-10 rounded-full" src="/igl.png" alt="wolfsensi">
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-sm leading-5 font-medium text-gray-900">
+                      Barrett50Cal#6862
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
+                Artist
+              </td>
+            </tr>
+            <!-- More rows... -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
     <a class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/fakemons/fakemons">Fakemons</a>
     <a class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/fakemons/submit">Submit Fakemon</a>
     <a class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/fakemons/ptr">PTR</a>
+    <a class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/fakemons/custom-avatar">Custom Avatar Request</a>
     <br>
     </div>
 </template>
