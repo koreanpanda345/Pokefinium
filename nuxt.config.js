@@ -41,8 +41,12 @@ export default {
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
-  axios: {},
-
+  axios: {
+	  proxy: true,
+  },
+  proxy: {
+	  '/api/': 'https://kills.porygonbot.xyz/'
+  },
   // Content module configuration (https://go.nuxtjs.dev/content-config)
   content: {},
 

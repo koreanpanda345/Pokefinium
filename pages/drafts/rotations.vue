@@ -3,7 +3,7 @@
         <header class="bg-gray-500 shadow">
     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
       <h1 class="text-3xl font-bold leading-tight text-gray-900">
-        Bo3 Drafts
+        Rotation Drafts
       </h1>
       <h4 class="text-2xl font-bold leading tight text-gray-900">
           Rotation Draft Leagues are Draft Formats that are different each season.align-middle

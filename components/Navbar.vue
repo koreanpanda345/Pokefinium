@@ -100,6 +100,16 @@
             class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0"
             >Sign up for Season 7</a
           >
+          <a
+            href="https://discord.gg/shaT5cv"
+            class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0"
+            >Join Our Discord</a
+          >
+					<a
+            href="https://www.youtube.com/channel/UCzoOKQQpweAizBO02OeFaPA"
+            class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0"
+            >Our Youtube</a
+          >
         </div>
       </div>
     </nav>
