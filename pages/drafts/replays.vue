@@ -1,7 +1,7 @@
 <template>
   <div class="container text-white text-center">
 		<h1 class="text-white text-3xl">Please insert the replay id that you wish to inspect</h1>
-		<h1 class="text-2xl">Some of this data is from Porygon Bot's Kill Site. The rest is from replay.pokemonshowdown.com</h1>
+		<h1 class="text-2xl">Majority of this data is from Porygon Bot's Kill Site. The rest is from replay.pokemonshowdown.com</h1>
 	<div>
   <label for="url" class="block text-sm leading-5 font-medium text-gray-300">Replay Url</label>
   <div class="mt-1 relative rounded-md shadow-sm">
@@ -464,6 +464,7 @@ export default {
 		replayData: '',
 		porygonData: '',
 		url: "",
+		currentUrl: "",
 		match: {},
 		players: {
 			p1: {
@@ -479,6 +480,25 @@ export default {
 		},
 	}),
 	methods: {
+		refresh() {
+			this.replayData = '';
+			this.porygonData = '';
+			this.match = {},
+			this.players = {
+				p1: {
+					player: "",
+					pokemonraw: [],
+					pokemon: []
+				},
+				p2: {
+					player: "",
+					pokemonraw: [],
+					pokemon: []
+				}
+			}
+			this.currentUrl = this.url;
+			return this.fetch();
+		},
 		getTotalDeaths(player) {
 			let deaths = 0;
 			for(let poke of this.players[player].pokemon) {
@@ -496,8 +516,6 @@ export default {
 		makePorygonDataToString() {
 			if(this.porygonData === '') return '';
 			return this.porygonData.data.split("<br>");
-		},
-		getPassiveKills(name) {
 		},
 		getKills(name) {
 			const kills = this.porygonData.data.split(`by ${name.split('-')[0]}`).length - 1;
@@ -569,7 +587,7 @@ export default {
 			}
 	},
 	async getPorygonData() {
-		this.porygonData = await(this.$axios.get("https://kills.porygonbot.xyz/api/" + this.url).catch(error => console.error(error)));
+		this.porygonData = await(this.$axios.get("https://kills.porygonbot.xyz/" + this.url).catch(error => console.error(error)));
 	},
 	async getReplayData() {
 		this.replayData = await(this.$axios.get("https://replay.pokemonshowdown.com/" + this.url + ".log"));
@@ -577,11 +595,14 @@ export default {
 	},
   	async fetch () {
 			if(this.url === "" || !this.url.startsWith("")) return;
+			if(this.url !== this.currentUrl && this.currentUrl !== '') return this.refresh();
 			if(this.url.includes("https://replay.pokemonshowdown.com/")) this.url = this.url.replace("https://replay.pokemonshowdown.com/", "");
+			if(this.url.includes("https://kills.porygonbot.xyz/")) this.url = this.url.replace("https://kills.porygonbot.xyz/", "");
 				await this.getReplayData();
 
 		 		this.getPlayers();
 				this.getTurns();
+				this.currentUrl = "https://replay.pokemonshowdown.com/" + this.url;
 		 }
 	}
 }
