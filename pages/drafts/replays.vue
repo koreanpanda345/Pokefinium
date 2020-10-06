@@ -556,11 +556,15 @@ export default {
 			{
 				this.players.p1.pokemonraw[i] = this.players.p1.pokemonraw[i].split("|")[0];
 				this.players.p1.pokemonraw[i] = this.players.p1.pokemonraw[i].replace("Urshifu-*", "Urshifu");
+				this.players.p1.pokemonraw[i] = this.players.p1.pokemonraw[i].replace("Silvally-*", "Silvally")
 			}
 
 			for(let i = 0; i < this.players.p2.pokemonraw.length; i++)
 			{
 				this.players.p2.pokemonraw[i] = this.players.p2.pokemonraw[i].split("|")[0]
+				this.players.p2.pokemonraw[i] = this.players.p2.pokemonraw[i].replace("Urshifu-*", "Urshifu");
+				this.players.p2.pokemonraw[i] = this.players.p2.pokemonraw[i].replace("Silvally-*", "Silvally");
+
 				if(this.players.p2.pokemonraw[i].includes("|rule")) this.players.p2.pokemonraw[i].split("|rule")[0];
 			}
 
