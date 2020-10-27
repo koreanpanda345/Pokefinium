@@ -1,20 +1,28 @@
+
 <template>
-  <div class="container text-white text-center">
-		<h1 class="text-white text-3xl">Please insert the replay id that you wish to inspect</h1>
-		<h1 class="text-2xl">Majority of this data is from Porygon Bot's Kill Site. The rest is from replay.pokemonshowdown.com</h1>
-	<div>
-  <label for="url" class="block text-sm leading-5 font-medium text-gray-300">Replay Url</label>
-  <div class="mt-1 relative rounded-md shadow-sm">
-    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-    </div>
-    <input id="url" v-model="url" class="form-input block w-full pl-7 pr-12 sm:text-sm sm:leading-5 text-black" placeholder="">
-  </div>
-	<br>
-	<button @click="fetch">Get Replay Data</button>
-</div>
-<br>
+	<div class="container text-white text-center">
+		<h1 class="text-white text-3xl">This page doesn't work at the moment, sorry for the inconvience.</h1>
+		<h1><a class="no-underline inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/">Return back to the home page.</a></h1>
+	</div>
+</template>
+
+<!--<template>-->
+  <!-- <div class="container text-white text-center"> -->
+		<!-- <h1 class="text-white text-3xl">Please insert the replay id that you wish to inspect</h1> -->
+		<!-- <h1 class="text-2xl">Majority of this data is from Porygon Bot's Kill Site. The rest is from replay.pokemonshowdown.com</h1> -->
+	<!-- <div> -->
+  <!-- <label for="url" class="block text-sm leading-5 font-medium text-gray-300">Replay Url</label> -->
+  <!-- <div class="mt-1 relative rounded-md shadow-sm"> -->
+    <!-- <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"> -->
+    <!-- </div> -->
+    <!-- <input id="url" v-model="url" class="form-input block w-full pl-7 pr-12 sm:text-sm sm:leading-5 text-black" placeholder=""> -->
+  <!-- </div> -->
+	<!-- <br> -->
+	<!-- <button @click="fetch">Get Replay Data</button> -->
+<!-- </div> -->
+<!-- <br> -->
 <!-- <h1>{{porygonData.data}}</h1> -->
-<iframe v-if="replayData != ''" :src="`https://replay.pokemonshowdown.com/${url}`" width="100%" height="500px"/>
+<!-- <iframe v-if="replayData != ''" :src="`https://replay.pokemonshowdown.com/${url}`" width="100%" height="500px"/>
 <h1 v-if="porygonData !== ''" class="text-2xl text-white"><span :class="`${getTotalDeaths('p1') < 6 ? 'text-gray-500' : 'text-white'}`">{{players.p1.player}}</span> VS <span :class="`${getTotalDeaths('p2') < 6 ? 'text-gray-500' : 'text-white'}`">{{players.p2.player}}</span></h1>
 <h1 v-if="porygonData !== ''" class="text-2xl text-white"><span :class="`${getTotalDeaths('p1') < 6 ? 'text-gray-500' : 'text-white'}`">{{6 - getTotalDeaths('p1')}}</span> - <span :class="`${getTotalDeaths('p2') < 6 ? 'text-gray-500' : 'text-white'}`">{{6 - getTotalDeaths('p2')}}</span></h1>
 <div class="grid xl:grid-cols-2 sm:grid-cols-1" v-if="porygonData != '' && replayData != ''">
@@ -57,8 +65,8 @@
 								</div>
 							</td>
 							<td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
-                {{players.p1.pokemon.length === 0 ? '0' : getKills(players.p1.pokemon[0].name).direct}}
-              </td>
+                {{players.p1.pokemon.length === 0 ? '0' : getKills(players.p1.pokemon[0].name).direct}} -->
+              <!-- </td>
 							<td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
                 {{players.p1.pokemon.length === 0 ? '0' : getKills(players.p1.pokemon[0].name).passive}}
               </td>
@@ -133,8 +141,8 @@
 										</div>
 									</div>
 								</div>
-							</td>
-							<td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
+							</td> -->
+							<!-- <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
                 {{players.p1.pokemon.length === 0 ? '0' : getKills(players.p1.pokemon[3].name).direct}}
               </td>
 							<td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
@@ -197,14 +205,14 @@
               </td>
 							<td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
                 {{players.p1.pokemon.length === 0 ? '0' : getDeaths(players.p1.pokemon[5].name)}}
-              </td>
-						</tr>
+              </td> -->
+						<!-- </tr>
 					</tbody>
 				</table>
 			</div>
 		</div>
-	</div>
-</div>
+	</div> -->
+<!-- </div> -->
 <!-- <div class="flext flex-col">
 	<div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
 		<div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
@@ -239,7 +247,7 @@
 		</div>
 	</div>
 </div> -->
-<div class="flext flex-col">
+<!-- <div class="flext flex-col">
 	<div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
 		<div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
 			<div class="shadow overlow-hidden border-b border-gray-200 sm:round-lg">
@@ -424,8 +432,8 @@
 				</table>
 			</div>
 		</div>
-	</div>
-</div>
+	</div> -->
+<!-- </div>
 <div></div>
 </div>
 <div class="flext flex-col" v-if="replayData !== '' && porygonData !== ''">
@@ -457,7 +465,7 @@
 </div>
 	</div>
 </div>
-</template>
+</template> -->
 <script>
 export default {
   data: () => ({
@@ -609,5 +617,5 @@ export default {
 				this.currentUrl = "https://replay.pokemonshowdown.com/" + this.url;
 		 }
 	}
-}
-</script>
+ }
+ </script> 

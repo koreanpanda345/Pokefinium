@@ -67,7 +67,7 @@
                 Owner
               </td>
               <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
-                Bo3 Masters
+                Bo3 Masters & Low Tiers
               </td>
             </tr>
             <tr>
@@ -87,7 +87,6 @@
                 Server Admin
               </td>
               <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
-                Bo3 Majors
               </td>
             </tr>
             <tr>
@@ -107,7 +106,7 @@
                 Server Admin
               </td>
               <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
-                Bo1 Majors
+                Bo3 Majors
               </td>
             </tr>
                         <tr>
@@ -127,7 +126,7 @@
                 Server Moderator
               </td>
               <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
-                Bo3 Masters
+                Bo1 Masters
               </td>
             </tr>
             <tr>
@@ -167,7 +166,7 @@
                 Server Moderator
               </td>
               <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
-                Bo1 Minors
+                Low Tiers
               </td>
             </tr>
             <tr>
@@ -187,7 +186,26 @@
                 Server Moderator
               </td>
               <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
-                Bo3 Minors
+                Bo3 Masters
+              </td>
+            </tr>
+            <tr>
+                <td class="px-6 py-4 whitespace-no-wrap">
+                <div class="flex items-center">
+                  <div class="flex-shrink-0 h-10 w-10">
+                    <img class="h-10 w-10 rounded-full" src="/igl.png" alt="wolfsensi">
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-sm leading-5 font-medium text-gray-900">
+                      Lala199vy#5401
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
+                Server Moderator
+              </td>
+              <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
               </td>
             </tr>
             <tr>
@@ -207,7 +225,7 @@
                 Server Moderator
               </td>
               <td class="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
-                Bo3 Minors
+                Bo3 Majors
               </td>
             </tr>
             <!-- More rows... -->
