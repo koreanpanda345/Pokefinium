@@ -5,7 +5,7 @@
       <h1 class="text-3xl font-bold leading-tight text-gray-900">
         Bo3 Masters Season 7
       </h1>
-        <a class="no-underline inline-block text-sm px-20 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/drafts/bo1">Back to Bo1 Leagues</a>
+        <a class="no-underline inline-block text-sm px-20 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 sm:mt-0" href="/drafts/bo3">Back to Bo3 Leagues</a>
     </div>
   </header>
     <br>
